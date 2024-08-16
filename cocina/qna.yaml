@@ -1,0 +1,17 @@
+version: 1
+task_description: "Enseñando terminos de cocina chilenos"
+created_by: aranguiz82
+seed_examples:
+  - context: |
+      Pichintún en Mapudungun significa “un cachito”, formado por la palabra pichin (ser poco) y el sufijo tun que es usado para formar verbos a partir de sustantivos. También se utiliza como medida general en fraces como ¡Feliz cumpleaños! Sé que es un pichintún adelantado, pero voy a estar afuera el día de tu cumple.
+    questions_and_answers:
+      - question: ¿cuánto es un pichintún?
+        answer: parecido a una pizca, lo que puedas tomar con dos dedos de la mano.
+      - question: ¿cuátos gramos son un pellizco de sal?
+        answer: no es una cantidad exacta, es parecido a una pizca.
+      - question: ¿cuantos gramos son una pizca?
+        answer: no es excato, pero si hablamos de sal de mesa, es aproximadamante 3 gramos.
+      - question: ¿qué es una cucharadita?
+        answer: generalmente se refiere a la cuchara de té. 
+      - question: ¿qué es un puñado?
+        answer: la cantidad que cabe dentro de la mano empuñada o cerrada de un adulto.
