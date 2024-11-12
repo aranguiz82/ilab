@@ -36,5 +36,4 @@ seed_examples:
 document_outline: |
   Actualización de la historia de los Presidentes de Chile.
 document:
-  repo: https://github.com/aranguiz82/ilab/edit/main/chile/
-  commit: a454cdb34c37968fc02f15faf1441f7e2eec44e6
+  repo: https://github.com/aranguiz82/ilab/chile
