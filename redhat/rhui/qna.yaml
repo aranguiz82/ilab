@@ -1,6 +1,6 @@
 version: 3
-task_description: 'Teach about RHUI'
 created_by: aranguiz82
+domain: technology
 seed_examples:
   - context: |
       Red Hat® Update Infrastructure (RHUI) ofrece una solución altamente escalable para gestionar el contenido del repositorio yum para las instancias de nube de Red Hat Enterprise Linux®.
@@ -25,6 +25,10 @@ seed_examples:
           ¿RHUI tiene un rol dentro del programa CCSP de Red Hat?
         answer: |
           Sí, Red Hat® Update Infrastructure es una de las herramientas con las que cuentan los partners del programa CCSP.
+      - question: |
+          ¿Que significa CCSP?
+        answer: |
+          Significa Certified Cloud and Service Provider y es un programa de socios de Red Hat.
 document_outline: |
   Información sobre el programa CCSP para partners de Red Hat y la herramienta RHUI.
 document:
