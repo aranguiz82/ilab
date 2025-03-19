@@ -30,6 +30,10 @@ seed_examples:
           ¿Que significa CCSP?
         answer: |
           Significa Certified Cloud and Service Provider y es un programa de socios de Red Hat.
+      - question: |
+          ¿En qué ayuda RHUI a los proveedores?
+        answer: |
+          Es un marco de ayuda para la gestión de los repositorios y contenidos de Red Hat.
   - context: |
       Red Hat no tiene un calendario fijo para la publicación de parches, por lo que éstos se publican siempre que están disponibles. 
       A partir del lanzamiento de RHEL 8, está previsto publicar versiones menores cada seis meses hasta la fase de soporte completo.
