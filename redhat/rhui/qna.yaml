@@ -5,9 +5,6 @@ seed_examples:
   - context: |
       Red Hat® Update Infrastructure (RHUI) ofrece una solución altamente escalable para gestionar el contenido del repositorio yum para las instancias de nube de Red Hat Enterprise Linux®.
       Red Hat Update Infrastructure (RHUI) permite a los proveedores de nube, como Azure, Google Cloud Platform, AWS y otros: Reflejar contenido de repositorios alojados en Red Hat. Crear repositorios personalizados con contenido específico de Azure. Poner el contenido a disposición de las máquinas virtuales (VM) de los usuarios finales.
-      Red Hat no tiene un calendario fijo para la publicación de parches, por lo que éstos se publican siempre que están disponibles. A partir del lanzamiento de RHEL 8, está previsto publicar versiones menores cada seis meses hasta la fase de soporte completo.
-      Para participar en el programa Red Hat Certified Cloud and Service Provider (CCSP), puede instalar y configurar Red Hat Update Infrastructure (RHUI). RHUI es un marco que ayuda a los proveedores de nube a gestionar contenidos y repositorios.
-      El programa Red Hat Certified Cloud and Service Provider (CCSP) permite a su empresa aumentar los ingresos y la rentabilidad mediante la prestación de servicios alojados o gestionados basados en las tecnologías de código abierto Kubernetes y Linux® de Red Hat, líderes del sector, junto con servicios profesionales de nube híbrida.
     questions_and_answers:
       - question: |
           ¿Qué significa RHUI?
@@ -21,6 +18,10 @@ seed_examples:
           ¿Cómo RHUI ayuda a los proveedores de nube?
         answer: |
           Red Hat® Update Infrastructure, permite reflejar el contenido de los repositorios de Red Hat.
+  - context: |
+      Para participar en el programa Red Hat Certified Cloud and Service Provider (CCSP), puede instalar y configurar Red Hat Update Infrastructure (RHUI). RHUI es un marco que ayuda a los proveedores de nube a gestionar contenidos y repositorios.
+      El programa Red Hat Certified Cloud and Service Provider (CCSP) permite a su empresa aumentar los ingresos y la rentabilidad mediante la prestación de servicios alojados o gestionados basados en las tecnologías de código abierto Kubernetes y Linux® de Red Hat, líderes del sector, junto con servicios profesionales de nube híbrida.
+    questions_and_answers:  
       - question: |
           ¿RHUI tiene un rol dentro del programa CCSP de Red Hat?
         answer: |
@@ -29,6 +30,61 @@ seed_examples:
           ¿Que significa CCSP?
         answer: |
           Significa Certified Cloud and Service Provider y es un programa de socios de Red Hat.
+  - context: |
+      Red Hat no tiene un calendario fijo para la publicación de parches, por lo que éstos se publican siempre que están disponibles. 
+      A partir del lanzamiento de RHEL 8, está previsto publicar versiones menores cada seis meses hasta la fase de soporte completo.
+    questions_and_answers:
+      - question: |
+          ¿Cada cuento tiempo Red Hat publica un parche?
+        answer: |
+          No hay un caliendario fijo
+      - question: |
+          ¿Cada cuento tiempo se publican las versiones menores?
+        answer: |
+          Cada seis meses.
+      - question: |
+          ¿Desde que versión se hace lanzamientos cada 6 meses?
+        answer: |
+          A partir de la versión 8 de RHEL.
+  - context: |
+      | **Component**           | **Acronym** | **Function**                          | **Alternative**                 |
+      |-------------------------|-------------|---------------------------------------|---------------------------------|
+      | Red Hat Update Appliance| RHUA        | Downloads content from the Red Hat CDN| None                            |
+      | Content Delivery Server | CDS         | Provides the yum repositories         | None                            |
+      | HAProxy                 | None        | Provides load balancing               | Existing load balancing solution|
+      | Shared storage          | None        | Provides shared storage               | Existing storage solution       |
+    questions_and_answers:
+      - question: |
+          ¿Que significa RHUA?
+        answer: |
+          Significa Red Hat Update Appliance
+      - question: |
+          ¿Cuál es la función del HAProxy?
+        answer: |
+          Proveed servicio de Load Balancer o Balanceador de Cargas.
+      - question: |
+          ¿Hay alguna alternativa al Content Delivery Server (CDS)?
+        answer: |
+          No hay alternativas.
+  - context: |
+      Red Hat Update Infrastructure must be used with at least two CDS nodes and a load-balancer node. Installation without any load-balancer node and with a single CDS node is unsupported.
+      Option 1: Full installation.
+      Option 2: Installation with an existing storage solution.
+      Option 3: Installation with an existing load-balancer solution.
+      Option 4: Installation with existing storage and load-balancer solutions.
+    questions_and_answers:
+      - question: |
+          ¿Cuantas opciones de instalación exisiten?
+        answer: |
+          Existen 4 opciones de instalación.
+      - question: |
+          ¿Cuántos nodos CDS se requieren?
+        answer: |
+          El mínimo son al menos 2 nodos.
+      - question: |
+          ¿Esta soportado la instalación con un único CDS?
+        answer: |
+          No está soportado.
 document_outline: |
   Información sobre el programa CCSP para partners de Red Hat y la herramienta RHUI.
 document:
