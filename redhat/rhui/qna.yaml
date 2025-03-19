@@ -51,12 +51,37 @@ seed_examples:
         answer: |
           A partir de la versión 8 de RHEL.
   - context: |
-      | **Component**           | **Acronym** | **Function**                          | **Alternative**                 |
-      |-------------------------|-------------|---------------------------------------|---------------------------------|
-      | Red Hat Update Appliance| RHUA        | Downloads content from the Red Hat CDN| None                            |
-      | Content Delivery Server | CDS         | Provides the yum repositories         | None                            |
-      | HAProxy                 | None        | Provides load balancing               | Existing load balancing solution|
-      | Shared storage          | None        | Provides shared storage               | Existing storage solution       |
+      <table>
+      <tr>
+      <td>Component</td>
+      <td>Acronym</td>
+      <td>Function</td>
+      <td>Alternative</td>
+      </tr>
+      <tr>
+      <td>Red Hat Update Appliance</td>
+      <td>RHUA</td>
+      <td>Downloads content from the Red Hat content delivery network and stores it on the shared storage</td>
+      <td>None</td>
+      </tr>
+      <tr>
+      <td>Content Delivery Server</td>
+      <td>CDS</td>
+      <td>Provides the yum repositories that clients connect to for the updated packages</td>
+      <td>None</td>
+      </tr>
+      <tr>
+      <td>HAProxy</td>
+      <td>None</td>
+      <td>Provides load balancing across CDS nodes</td>
+      <td>Existing load balancing solution</td>
+      </tr>
+      <tr>
+      <td>Shared storage</td>
+      <td>None</td>
+      <td>Provides shared storage</td>
+      <td>Existing storage solution</td>
+      </tr>
     questions_and_answers:
       - question: |
           ¿Que significa RHUA?
