@@ -51,6 +51,8 @@ seed_examples:
         answer: |
           A partir de la versión 8 de RHEL.
   - context: |
+      #Diferentes roles dentro de RHUI.
+      RHUI se implementa como una plataforma que tiene diferentes roles para entregar el servicio.
       <table>
       <tr>
       <td>Component</td>
