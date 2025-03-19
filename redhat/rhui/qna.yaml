@@ -21,7 +21,7 @@ seed_examples:
   - context: |
       Para participar en el programa Red Hat Certified Cloud and Service Provider (CCSP), puede instalar y configurar Red Hat Update Infrastructure (RHUI). RHUI es un marco que ayuda a los proveedores de nube a gestionar contenidos y repositorios.
       El programa Red Hat Certified Cloud and Service Provider (CCSP) permite a su empresa aumentar los ingresos y la rentabilidad mediante la prestación de servicios alojados o gestionados basados en las tecnologías de código abierto Kubernetes y Linux® de Red Hat, líderes del sector, junto con servicios profesionales de nube híbrida.
-    questions_and_answers:  
+    questions_and_answers:
       - question: |
           ¿RHUI tiene un rol dentro del programa CCSP de Red Hat?
         answer: |
@@ -35,7 +35,7 @@ seed_examples:
         answer: |
           Es un marco de ayuda para la gestión de los repositorios y contenidos de Red Hat.
   - context: |
-      Red Hat no tiene un calendario fijo para la publicación de parches, por lo que éstos se publican siempre que están disponibles. 
+      Red Hat no tiene un calendario fijo para la publicación de parches, por lo que éstos se publican siempre que están disponibles.
       A partir del lanzamiento de RHEL 8, está previsto publicar versiones menores cada seis meses hasta la fase de soporte completo.
     questions_and_answers:
       - question: |
