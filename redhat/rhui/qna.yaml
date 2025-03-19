@@ -122,4 +122,4 @@ document:
   repo: https://github.com/aranguiz82/ilab.git
   commit: 6315cca69df5fcd2470de7d6b402d43cc8951865
   patterns:
-    - README.md
+    - rhui.md
