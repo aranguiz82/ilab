@@ -92,7 +92,7 @@ seed_examples:
 document_outline: |
   Información sobre el programa CCSP para partners de Red Hat y la herramienta RHUI.
 document:
-  repo: https://github.com/aranguiz82/ilab/redhat/rhui.git
+  repo: https://github.com/aranguiz82/ilab.git
   commit: 6315cca69df5fcd2470de7d6b402d43cc8951865
   patterns:
     - README.md
